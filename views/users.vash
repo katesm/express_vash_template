@@ -1,0 +1,15 @@
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+<h1>
+    This is the users page</h1>
+<ul>
+  @model.users.forEach(function(user){
+  <li> @user.username </li>
+})
+</ul>
+
+
+
+
+  })
+})
