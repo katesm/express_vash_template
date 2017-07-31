@@ -5,4 +5,6 @@ Just an express template. Clone this repo then:
 
 `npm install`
 
-`npm start`
+`npm run start`
+
+Sever will be running on port 3000
